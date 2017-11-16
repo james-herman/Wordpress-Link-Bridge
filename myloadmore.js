@@ -1,3 +1,10 @@
+// link to author's URL for this
+// on how to auto load posts on Wordpress
+// without using a plugin
+// Misha Rudrastyh
+// https://rudrastyh.com/wordpress/load-more-posts-ajax.html
+
+
 jQuery(function($){
 	var canBeLoaded = true, // this param allows to initiate the AJAX call only if necessary
 	    bottomOffset = 2000; // the distance (in px) from the page bottom when you want to load more posts
