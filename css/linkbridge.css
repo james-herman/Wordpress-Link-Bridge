@@ -119,3 +119,18 @@ img {
 }
 
 
+/* Media query for narrow screens */
+
+@media (max-width: 350px) {
+
+	.menu li:last-child {
+		right: 20px;
+	}
+	.menu ul {
+		padding-left: 20px;
+	}
+
+
+}
+
+
