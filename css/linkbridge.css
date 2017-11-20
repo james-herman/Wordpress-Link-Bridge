@@ -129,6 +129,12 @@ img {
 	.menu ul {
 		padding-left: 20px;
 	}
+	#grid {
+		margin-left: 10%;
+	}
+	#block {
+		margin-right: 10%;
+	}
 
 
 }
