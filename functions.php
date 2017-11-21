@@ -61,6 +61,8 @@ add_theme_support('post-formats',array('aside','image','video'));
 
 ///testing code for auto load
 
+
+
 function misha_my_load_more_scripts() {
  
 	global $wp_query; 
@@ -69,7 +71,7 @@ function misha_my_load_more_scripts() {
 	wp_enqueue_script('jquery');
  
 	// register our main script but do not enqueue it yet
-	wp_register_script( 'my_loadmore', get_stylesheet_directory_uri() . '/myloadmore.js', array('jquery') );
+	wp_register_script( 'my_loadmore', get_stylesheet_directory_uri() . '/js/myloadmore.js', array('jquery') );
  
 	// now the most interesting part
 	// we have to pass parameters to myloadmore.js script but we can get the parameters values only in PHP
